@@ -16,7 +16,7 @@
     "express-handlebars": "^6.0.5"
   },
   "lint-staged": {
-    "src/**/*.{js,json,scss}": "prettier --single-quote --tab-width 4 --trailing-comma all --write 'src/**/*.{js,json,scss}'"
+    "src/**/*.{js,json,scss}": "prettier --single-quote --tab-width 4 --trailing-comma all --write"
   },
   "husky": {
     "hooks": {

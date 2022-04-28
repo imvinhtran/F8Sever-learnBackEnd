@@ -9,7 +9,7 @@ const app = express();
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(morgan("combined"));
+app.use(morgan('combined'));
 
 // Register `hbs.engine` with the Express app.
 app.engine('hbs', engine({ extname: '.hbs', defaultLayout: 'main' }));
